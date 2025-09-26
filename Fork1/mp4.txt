@@ -1,0 +1,6 @@
+mp4.c respuesta
+A)  Padre 1000 -> Hijo 1001
+B)
+CCC CCC
+AAA BBB
+BBB AAA

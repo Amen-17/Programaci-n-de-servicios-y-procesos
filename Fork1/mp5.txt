@@ -1,0 +1,7 @@
+mp5 solución
+A) Padre 1000 -> Hijo 1001 e Hijo 1002
+B) tiene muchas salidas posibles 
+AAA - Padre siempre
+BBB - pid1 variable
+CCC - Padre variable
+CCC - pid2 variable
