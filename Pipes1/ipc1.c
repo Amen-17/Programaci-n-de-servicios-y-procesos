@@ -15,12 +15,13 @@ void main(){
 		int i = sizeof("Martes 30 de septiembre, 30/9/2025");
 		write(array[1],"\nMartes 30 de septiembre, 30/9/2025",i);
 		close(array[1]);
+		wait(NULL);
 	}else{
 		close(array[1]);
 		printf("\nSoy el proceso hijo con pid %d",getpid());
 		read(array[0], buffer, sizeof(buffer));
-                printf("\t %s \n", buffer);
-                close(array[0]);
+    printf("\t %s \n", buffer);
+    close(array[0]);
 	}
 
 exit(0);
