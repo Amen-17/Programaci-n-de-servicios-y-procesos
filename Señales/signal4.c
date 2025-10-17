@@ -21,4 +21,5 @@ void main(){
 		kill(getpid(),SIGUSR1);
 		sleep(num2);
 	}
+	printf("Alarma desactivada.");
 }
